@@ -10,10 +10,10 @@
 # ---------------------------------------------------
 
 class InvalidHash(Exception):
-    message = "Invalid hash"
+    message = "Congratulations You Fuckedup"
 
 class FIleNotFound(Exception):
-    message = "File not found"
+    message = "CongratulationsYou Fuckedup"
     
     
 # MyselfNeon
