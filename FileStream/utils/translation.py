@@ -25,13 +25,13 @@ class LANG(object):
 <b><i>➠ Sᴇɴᴅ Mᴇ Aɴʏ Dᴏᴄᴜᴍᴇɴᴛ Oʀ Mᴇᴅɪᴀ</i></b>
 <b><i>➠ I Wɪʟʟ Pʀᴏᴠɪᴅᴇ Sᴛʀᴇᴀᴍᴀʙʟᴇ Lɪɴᴋ</i></b>\n
 <b><i>Aᴅᴜʟᴛ Cᴏɴᴛᴇɴᴛ Sᴛʀɪᴄᴛʟʏ Pʀᴏʜɪʙɪᴛᴇᴅ.</i></b>\n
-<i><b>🧑‍💻 Rᴇᴘᴏʀᴛ Bᴜɢs Tᴏ <a href='https://telegram.me/myselfneon'>Dᴇᴠᴇʟᴏᴘᴇʀ 👮</a></b></i>"""
+<i><b>🧑‍💻 Rᴇᴘᴏʀᴛ Bᴜɢs Tᴏ <a href='https://telegram.me/SnapLoverXBot'>Dᴇᴠᴇʟᴏᴘᴇʀ 👮</a></b></i>"""
 
     ABOUT_TEXT = """
 <b><i>➠ Mʏ Nᴀᴍᴇ : {}</i></b>\n
 <b><i>➠ Vᴇʀsɪᴏɴ : {} [Stable]</i></b>
 <b><i>➠ Uᴘᴅᴀᴛᴇᴅ Oɴ : 28 September 2025</i></b>
-<b><i>➠ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/MyselfNeon'>MyselfNeon</a></i></b> 
+<b><i>➠ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Snap_Lover8'>Snap Lover</a></i></b> 
 <b><i>➠ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a></i></b> 
 <b><i>➠ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 𝟹</a></i></b> 
 <b><i>➠ DᴀᴛᴀBᴀsᴇ : <a href='https://www.mongodb.com/'>Mᴏɴɢᴏ DB</a></i></b> 
@@ -73,7 +73,7 @@ class BUTTON(object):
     HELP_BUTTONS = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴘ 🦠', url='https://t.me/+o1s-8MppL2syYTI9'),
+                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴘ 🦠', url='https://t.me/Snap_Lover8'),
                 InlineKeyboardButton("Aʙᴏᴜᴛ 😎", callback_data='about')
             ],
             [
