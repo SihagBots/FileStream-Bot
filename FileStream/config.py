@@ -35,15 +35,15 @@ class Telegram:
     START_PICS_STRING = env.get(
     'START_PICS',
     ",".join([
-        "https://files.catbox.moe/a0js39.jpg",
-        "https://files.catbox.moe/ni25rb.jpg",
-        "https://files.catbox.moe/561dmo.jpg",
-        "https://files.catbox.moe/wryhyh.jpg",
+        "https://i.ibb.co/kV3sC266/637a97059cf0.jpg",
+        "https://i.ibb.co/5WK4tFbp/0e282ebcc464.jpg",
+        "https://i.ibb.co/Ps1JLz89/70dde20478b3.jpg",
+        "https://i.ibb.co/20jPQ44R/05ea4ea9d996.jpg",
     ])
     )
     START_PICS = [url.strip() for url in START_PICS_STRING.split(',')]
     
-    VERIFY_PIC = env.get('VERIFY_PIC', "https://files.catbox.moe/ydf8d4.jpg")
+    VERIFY_PIC = env.get('VERIFY_PIC', "https://i.ibb.co/5WK4tFbp/0e282ebcc464.jpg")
     MULTI_CLIENT = False
     FLOG_CHANNEL = int(env.get("FLOG_CHANNEL", '-1003542287615'))   # Logs channel for file logs
     ULOG_CHANNEL = int(env.get("ULOG_CHANNEL", '-1003591916255'))   # Logs channel for user logs
