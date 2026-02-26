@@ -29,13 +29,13 @@ class LANG(object):
 
     ABOUT_TEXT = """
 <b><i>➠ Mʏ Nᴀᴍᴇ : {}</i></b>\n
-<b><i>➠ Vᴇʀsɪᴏɴ : {} [Stable]</i></b>
-<b><i>➠ Uᴘᴅᴀᴛᴇᴅ Oɴ : 28 September 2025</i></b>
+<b><i>➠ Sɴᴀᴘ Lᴏᴠᴇʀ Nᴇᴛᴡᴏʀᴋ : <a href='https://newweb-95to.onrender.com/'>Cʟɪᴄᴋ Hᴇʀᴇ</a></i></b>
+<b><i>➠ BᴀᴄᴋUᴘ 2.0 : <a href='https://t.me/+TvUmstJYM1I3ZGM1'>Cʟɪᴄᴋ Hᴇʀᴇ</a></i></b>
 <b><i>➠ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Snap_Lover8'>Snap Lover</a></i></b> 
-<b><i>➠ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a></i></b> 
-<b><i>➠ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 𝟹</a></i></b> 
-<b><i>➠ DᴀᴛᴀBᴀsᴇ : <a href='https://www.mongodb.com/'>Mᴏɴɢᴏ DB</a></i></b> 
-<b><i>➠ Bᴏᴛ Sᴇʀᴠᴇʀ : <a href='https://heroku.com'>Hᴇʀᴏᴋᴜ</a></i></b> 
+<b><i>➠ Sɴᴀᴘ Lᴏᴠᴇʀ Dᴀɪʟʏ : <a href='https://t.me/+5000jEnshVVmYzg1'>Cʟɪᴄᴋ Hᴇʀᴇ</a></i></b> 
+<b><i>➠ Nᴇᴡs Rᴏᴏᴍ : <a href='https://t.me/+NbpXnldC3AI2NTU1'>Cʟɪᴄᴋ Hᴇʀᴇ</a></i></b> 
+<b><i>➠ ᴛᴜɴᴇʙᴏᴛs : <a href='https://t.me/TuneBots'>Cʟɪᴄᴋ Hᴇʀᴇ</a></i></b> 
+<b><i>➠ Dɪsᴋᴡᴀʟᴀ ʟɪɴᴋs : <a href='https://t.me/+GHL_Gg64eBZlMTVl'>Cʟɪᴄᴋ Hᴇʀᴇ</a></i></b> 
 """
 
     STREAM_TEXT = """
@@ -87,7 +87,7 @@ class BUTTON(object):
         [
             [
                 InlineKeyboardButton('Hᴇʟᴘ 🆘', callback_data='help'),
-                InlineKeyboardButton('Sᴏᴜʀᴄᴇ 🚀', url='https://github.com/MyselfNeon')
+                InlineKeyboardButton('Sᴏᴜʀᴄᴇ 🚀', url='https://t.me/TuneBots')
             ],
             [
                 InlineKeyboardButton('Cʟᴏsᴇ ❌', callback_data='close'),
