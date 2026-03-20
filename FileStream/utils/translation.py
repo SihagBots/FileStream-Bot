@@ -25,18 +25,19 @@ class LANG(object):
 <b><i>➠ Sᴇɴᴅ Mᴇ Aɴʏ Dᴏᴄᴜᴍᴇɴᴛ Oʀ Mᴇᴅɪᴀ</i></b>
 <b><i>➠ I Wɪʟʟ Pʀᴏᴠɪᴅᴇ Sᴛʀᴇᴀᴍᴀʙʟᴇ Lɪɴᴋ</i></b>\n
 <b><i>Aᴅᴜʟᴛ Cᴏɴᴛᴇɴᴛ Sᴛʀɪᴄᴛʟʏ Pʀᴏʜɪʙɪᴛᴇᴅ.</i></b>\n
-<i><b>🧑‍💻 Rᴇᴘᴏʀᴛ Bᴜɢs Tᴏ <a href='https://telegram.me/SnapLoverXBot'>Dᴇᴠᴇʟᴏᴘᴇʀ 👮</a></b></i>"""
+<i><b>🧑‍💻 Rᴇᴘᴏʀᴛ Bᴜɢs Tᴏ <a href='https://telegram.me/TheOrviz>Dᴇᴠᴇʟᴏᴘᴇʀ 👮</a></b></i>"""
 
     ABOUT_TEXT = """
 <b><i>➠ Mʏ Nᴀᴍᴇ : {}</i></b>\n
-<b><i>➠ Sɴᴀᴘ Lᴏᴠᴇʀ Nᴇᴛᴡᴏʀᴋ : <a href='https://newweb-95to.onrender.com/'>Cʟɪᴄᴋ Hᴇʀᴇ</a></i></b>
-<b><i>➠ BᴀᴄᴋUᴘ 2.0 : <a href='https://t.me/+TvUmstJYM1I3ZGM1'>Cʟɪᴄᴋ Hᴇʀᴇ</a></i></b>
-<b><i>➠ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Snap_Lover8'>Snap Lover</a></i></b> 
-<b><i>➠ Sɴᴀᴘ Lᴏᴠᴇʀ Dᴀɪʟʏ : <a href='https://t.me/+5000jEnshVVmYzg1'>Cʟɪᴄᴋ Hᴇʀᴇ</a></i></b> 
-<b><i>➠ Nᴇᴡs Rᴏᴏᴍ : <a href='https://t.me/+NbpXnldC3AI2NTU1'>Cʟɪᴄᴋ Hᴇʀᴇ</a></i></b> 
-<b><i>➠ ᴛᴜɴᴇʙᴏᴛs : <a href='https://t.me/TuneBots'>Cʟɪᴄᴋ Hᴇʀᴇ</a></i></b> 
-<b><i>➠ Dɪsᴋᴡᴀʟᴀ ʟɪɴᴋs : <a href='https://t.me/+GHL_Gg64eBZlMTVl'>Cʟɪᴄᴋ Hᴇʀᴇ</a></i></b> 
+<b><i>➠ Vᴇʀsɪᴏɴ : {} [Stable]</i></b>
+<b><i>➠ Uᴘᴅᴀᴛᴇᴅ Oɴ : 28 March 2026</i></b>
+<b><i>➠ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/TheOrviz>TʜᴇOʀᴠɪᴢ</a></i></b> 
+<b><i>➠ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a></i></b> 
+<b><i>➠ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 𝟹</a></i></b> 
+<b><i>➠ DᴀᴛᴀBᴀsᴇ : <a href='https://www.mongodb.com/'>Mᴏɴɢᴏ DB</a></i></b> 
+<b><i>➠ Bᴏᴛ Sᴇʀᴠᴇʀ : <a href='https://koyeb.com'>Kᴏʏᴇʙ</a></i></b> 
 """
+
 
     STREAM_TEXT = """
 <u>𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 !</u>\n
@@ -73,7 +74,7 @@ class BUTTON(object):
     HELP_BUTTONS = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴘ 🦠', url='https://t.me/Snap_Lover8'),
+                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴘ 🦠', url='https://t.me/TheOrviX'),
                 InlineKeyboardButton("Aʙᴏᴜᴛ 😎", callback_data='about')
             ],
             [
@@ -87,7 +88,7 @@ class BUTTON(object):
         [
             [
                 InlineKeyboardButton('Hᴇʟᴘ 🆘', callback_data='help'),
-                InlineKeyboardButton('Sᴏᴜʀᴄᴇ 🚀', url='https://t.me/TuneBots')
+                InlineKeyboardButton('Sᴏᴜʀᴄᴇ 🚀', url='https://t.me/TheOrviX')
             ],
             [
                 InlineKeyboardButton('Cʟᴏsᴇ ❌', callback_data='close'),
