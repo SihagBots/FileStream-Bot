@@ -58,13 +58,13 @@ class Server:
     PING_INTERVAL = int(env.get("PING_INTERVAL", "1200"))
     HAS_SSL = str(env.get("HAS_SSL", "1").lower()) in ("1", "true", "t", "yes", "y")
     NO_PORT = str(env.get("NO_PORT", "1").lower()) in ("1", "true", "t", "yes", "y")
-    FQDN = str(env.get("FQDN", "irrelevant-timothea-sihagbots-e9d10a71.koyeb.app/"))  # <-- your Render domain (no https://)
+    FQDN = str(env.get("FQDN", "irrelevant-timothea-sihagbots-e9d10a71.koyeb.app"))  # <-- your Render domain (no https://)
     URL = "http{}://{}{}/".format(
         "s" if HAS_SSL else "", FQDN, "" if NO_PORT else ":" + str(PORT)
     )
 
 # Keep-Alive URL
-KEEP_ALIVE_URL = env.get("KEEP_ALIVE_URL", "https://irrelevant-timothea-sihagbots-e9d10a71.koyeb.app/")
+KEEP_ALIVE_URL = env.get("KEEP_ALIVE_URL", "https://irrelevant-timothea-sihagbots-e9d10a71.koyeb.app")
 
 
 # MyselfNeon
