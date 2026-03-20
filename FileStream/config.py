@@ -20,12 +20,12 @@ class Telegram:
     API_ID = int(env.get("API_ID"))
     API_HASH = str(env.get("API_HASH"))
     BOT_TOKEN = str(env.get("BOT_TOKEN"))
-    OWNER_ID = int(env.get('OWNER_ID', '6891095964'))
+    OWNER_ID = int(env.get('OWNER_ID', ''))
     WORKERS = int(env.get("WORKERS", "6"))  # 6 workers = 6 commands at once
     DATABASE_URL = str(env.get('DATABASE_URL'))
-    UPDATES_CHANNEL = str(env.get('UPDATES_CHANNEL', "TuneBots"))
+    UPDATES_CHANNEL = str(env.get('UPDATES_CHANNEL', ""))
     SESSION_NAME = str(env.get('SESSION_NAME', 'FilesToLinkZBot'))
-    FORCE_SUB_ID = env.get('FORCE_SUB_ID', '-1003870553259')
+    FORCE_SUB_ID = env.get('FORCE_SUB_ID', '')
     FORCE_SUB = env.get('FORCE_UPDATES_CHANNEL', True)
     FORCE_SUB = True if str(FORCE_SUB).lower() == "true" else False
     SLEEP_THRESHOLD = int(env.get("SLEEP_THRESHOLD", "60"))
@@ -45,8 +45,8 @@ class Telegram:
     
     VERIFY_PIC = env.get('VERIFY_PIC', "https://i.ibb.co/5WK4tFbp/0e282ebcc464.jpg")
     MULTI_CLIENT = False
-    FLOG_CHANNEL = int(env.get("FLOG_CHANNEL", '-1003542287615'))   # Logs channel for file logs
-    ULOG_CHANNEL = int(env.get("ULOG_CHANNEL", '-1003591916255'))   # Logs channel for user logs
+    FLOG_CHANNEL = int(env.get("FLOG_CHANNEL", ''))   # Logs channel for file logs
+    ULOG_CHANNEL = int(env.get("ULOG_CHANNEL", ''))   # Logs channel for user logs
     MODE = env.get("MODE", "primary")
     SECONDARY = True if MODE.lower() == "secondary" else False
     AUTH_USERS = list(set(int(x) for x in str(env.get("AUTH_USERS", "")).split()))
@@ -58,7 +58,7 @@ class Server:
     PING_INTERVAL = int(env.get("PING_INTERVAL", "1200"))
     HAS_SSL = str(env.get("HAS_SSL", "1").lower()) in ("1", "true", "t", "yes", "y")
     NO_PORT = str(env.get("NO_PORT", "1").lower()) in ("1", "true", "t", "yes", "y")
-    FQDN = str(env.get("FQDN", "filestream-bot-njtx.onrender.com"))  # <-- your Render domain (no https://)
+    FQDN = str(env.get("FQDN", ""))  # <-- your Render domain (no https://)
     URL = "http{}://{}{}/".format(
         "s" if HAS_SSL else "", FQDN, "" if NO_PORT else ":" + str(PORT)
     )
