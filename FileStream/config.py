@@ -23,7 +23,7 @@ class Telegram:
     OWNER_ID = int(env.get('OWNER_ID', ''))
     WORKERS = int(env.get("WORKERS", "6"))  # 6 workers = 6 commands at once
     DATABASE_URL = str(env.get('DATABASE_URL'))
-    UPDATES_CHANNEL = str(env.get('UPDATES_CHANNEL', ""))
+    UPDATES_CHANNEL = str(env.get('UPDATES_CHANNEL', "TheOrviX"))
     SESSION_NAME = str(env.get('SESSION_NAME', 'FilesToLinkZBot'))
     FORCE_SUB_ID = env.get('FORCE_SUB_ID', '')
     FORCE_SUB = env.get('FORCE_UPDATES_CHANNEL', True)
@@ -58,13 +58,13 @@ class Server:
     PING_INTERVAL = int(env.get("PING_INTERVAL", "1200"))
     HAS_SSL = str(env.get("HAS_SSL", "1").lower()) in ("1", "true", "t", "yes", "y")
     NO_PORT = str(env.get("NO_PORT", "1").lower()) in ("1", "true", "t", "yes", "y")
-    FQDN = str(env.get("FQDN", ""))  # <-- your Render domain (no https://)
+    FQDN = str(env.get("FQDN", "irrelevant-timothea-sihagbots-e9d10a71.koyeb.app/"))  # <-- your Render domain (no https://)
     URL = "http{}://{}{}/".format(
         "s" if HAS_SSL else "", FQDN, "" if NO_PORT else ":" + str(PORT)
     )
 
 # Keep-Alive URL
-KEEP_ALIVE_URL = env.get("KEEP_ALIVE_URL", "")
+KEEP_ALIVE_URL = env.get("KEEP_ALIVE_URL", "https://irrelevant-timothea-sihagbots-e9d10a71.koyeb.app/")
 
 
 # MyselfNeon
